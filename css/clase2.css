@@ -1,0 +1,94 @@
+/* h1{
+    color: blue ;
+}
+
+.titulo{
+    color: red !important;
+}
+
+#titulo{
+    color: greenyellow;
+} */
+
+
+/*Pseudoclase*/
+
+
+/* Primer Hijo */
+p:first-child{
+    color: red;
+}
+
+/* Ultimo Hijo */
+p:last-child{
+    color: blue;
+}
+
+/* Unico Hijo */
+p:only-child{
+    color: green;
+}
+
+/* Enesimo elemento hijo */
+p:nth-child(3){
+    color: violet;
+}
+
+/* No visitado por el usuario */
+a:link{
+    color: green;
+}
+
+/* Visitado por el usuario */
+a:visited{
+    color: red;
+}
+
+/* Modifica el estilo cuando el cursor pasa encima  */
+a:hover{
+    color: blue;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Se activa cuando el usuario pulsa el elemento */
+button:active{
+    background-color: blue;
+    color: white;
+}
+
+/* Se activa cuando tiene el foco sobre el elemento */
+button:focus{
+    background-color: pink;
+    color: white;
+}
+
+/* Primera línea de texto de un elemento */
+p::first-line{
+    color: green;
+}
+
+/* Primera letra de la primera línea de texto de un elemento */
+p::first-letter{
+    color: magenta;
+}
+
+/* Añade contenido al principio del documento */
+p::before{
+    content: "Hola Menti como estan";color: red;
+}
+
+/* Añade contenido al final del documento */
+p::after{
+    content: "Hola Menti como estan";color: red;
+}
+
+/* Coge la porción del texto que se está seleccionando por el usuario */
+p::selection{
+    color: yellow;
+}
+
+
