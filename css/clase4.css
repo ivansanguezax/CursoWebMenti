@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.a{
+    background-color: red;
+    /* Paddings */
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+
+    /* boders */
+    border-top: 10px solid yellow;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid blue;
+
+    border-radius: 100px 20px;
+
+    /* Margen */
+    margin-top:20px; /*Arriba*/
+    margin-right:10px; /*Derecha*/
+    margin-bottom:20px; /* Abajo*/
+    margin-left:10px; /* Izquierda*/
+}
+.b{
+    background-color: blue;
+    /* Paddings */
+    /* padding: 20px 100px 20px 100px; */
+    padding: 20px 100px;
+    
+    /* Borders */
+    border: 10px solid red;
+    border-radius: 100px 0px 100px 0;
+    
+    /* Margen */
+    margin: 20px 10px;
+}
+
+main{
+    font-family: 'Poppins', sans-serif; 
+    height: 100vh;
+    /* background-image: url('../assets/bk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #2941ab;
+    color: #34d760;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    margin:0px;
+    font-size: 150px;
+    line-height: 140px;
+}
+main p{
+    margin: 25px 0px;
+    font-size:14px;
+    font-weight:400;
+}
+main button{
+    margin: 25px 0px;
+    background-color: #34d760;
+    color: #2941ab;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 190px;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 100px;
+}
