@@ -39,6 +39,44 @@ body{
     margin: 20px 10px;
 }
 
+header{
+    background-color: black;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo img{
+    width:150px;
+}
+
+.header-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-menu li{
+    margin-right: 20px;
+}
+.header-menu li:last-child{
+    margin-right: 0;
+}
+.header-menu li:nth-child(4){
+    border-left: 2px solid white ;
+}
+
+.header-menu a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-menu a:hover{
+    color: #34d760;
+}
+
+
 main{
     font-family: 'Poppins', sans-serif; 
     height: 100vh;
@@ -74,3 +112,4 @@ main button{
     padding: 10px 0px;
     border-radius: 100px;
 }
+
