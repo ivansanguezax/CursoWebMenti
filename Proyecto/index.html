@@ -21,12 +21,12 @@
 
     <!-- Header -->
     <header>
-        <figure>
+        <div class="header-logo">
             <img src="Assets/logo.png" alt="logo-portafolio">
             <h3>
                 <strong>Port</strong>afolio</h3>
-        </figure>
-        <nav>
+        </div>
+        <nav class="header-menu">
             <ul>
                 <li>
                     <a href="#">Inicio</a>
@@ -37,11 +37,11 @@
                 <li>
                     <a href="#">Servicios</a>
                 </li>
-                <li>
-                    <a href="#">Contactame</a>
-                </li>
             </ul>   
         </nav>
+        <div class="header-btn">
+                <a href="#">Contactame</a>
+        </div>
     </header>
 
     <!-- ----Fin Header---- -->
@@ -49,17 +49,20 @@
     <!-- Main -->
 
     <main>
-        <div>
-            <h1>Hola soy <br> Ivan Sangueza</h1>
+        <div class="main-description">
+            <h1>Hola soy <br> 
+               <strong>Ivan Sangueza</strong> </h1>
             <p>Desarrollador Web</p>
-            <div>
+            <div class="main-description-btn">
                 <a href="#">Contactme</a>
-                <i></i> <span>Revisa mi trabajo</span>
+                <a href="#" class="main-description-btn1">
+                <i class="fa fa-play-circle" aria-hidden="true"></i>  <span>Revisa mi trabajo</span>
+            </a>
             </div>
         </div>
 
-        <div>
-            <img src="#" alt="imagen-hero">
+        <div class="main-hero">
+            <img src="./Assets/person.png" alt="imagen-hero">
         </div>
     </main>
 
@@ -183,5 +186,7 @@
     </footer>
 
     <!-- ----Fin Footer ---- -->
+
+    <script src="https://use.fontawesome.com/8c6a05cecb.js"></script>
 </body>
 </html>
