@@ -140,3 +140,82 @@ main{
 .main-hero img{
     width: 415px;
 }
+
+/* -- ----Fin Main---- -- */
+
+    /* -- Logos empresas -- */
+
+.logos{
+    padding: 0px 135px;
+    margin: 102px 0px 160px;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+/* -- ----Fin Logos empresas---- -- */
+
+    /* -- Servicios -- */
+
+
+.servicios-description {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.servicios-description h1{
+    font-size:48px;
+    font-weight:700;
+    color: var(--azul);
+    text-align: center;
+    margin: 0;
+}
+.servicios-description p, .tarjet p{
+    font-size:18px;
+    font-weight:400;
+    color: var(--plomo);
+    text-align: center;
+    margin: 0;
+}
+
+.servicios-tarjets{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0px;
+}
+.tarjet{
+    padding:50px 27px;
+    width:370px;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.tarjet img{
+    width:50px;
+}
+.tarjet h3{
+    font-size:24px;
+    font-weight:700;
+    color: var(--azul);
+    margin: 37px 0px 30px;
+}
+.tarjet a{
+    margin-top: 38px;
+    padding:15px 42px;
+    background-color: var(--naranja);
+    font-size: 18px;
+    font-weight:500;
+    color: var(--blanco);
+}
+.tarjet:hover{
+    background: rgba(254, 235, 197, 0.4);
+}
+.tarjet a:hover{
+    color: var(--naranja);
+    background-color: rgba(254, 235, 197, 0.4);
+    border: 1px solid var(--naranja);
+}
