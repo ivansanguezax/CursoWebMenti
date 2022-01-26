@@ -219,3 +219,152 @@ main{
     background-color: rgba(254, 235, 197, 0.4);
     border: 1px solid var(--naranja);
 }
+
+/* -- ----Fin Servicios---- -- */
+
+    /* -- Sobre mi -- */
+
+.about{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.about-img img{
+    width:512px;
+}
+.about-description{
+    width:500px;
+    margin-left: 67px;
+}
+.about-description h1, .noticias h1{
+    font-size:48px;
+    font-weight:700;
+    color: var(--azul);
+    margin: 0;
+}
+.about-description p, .noticias p{
+    font-size:18px;
+    font-weight:400;
+    color: var(--plomo);
+    margin: 5px;
+
+}
+
+.about-description-contact{
+    margin-top: 54px;
+}
+
+.contact{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom:37px;
+}
+.contact i, .contact h5{
+    font-size:20px;
+    color: var(--azul);
+    margin: 0;
+}
+.about-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-btn a:nth-child(1){
+    padding: 19px 36px;
+    background-color: var(--blanco);
+    box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);
+    border-radius: 26px;
+    border: 1px solid var(--verde);
+    color: var(--verde);
+    font-size:20px;
+    font-weight:700;
+}
+
+.about-btn a:nth-child(2){
+    padding: 19px 36px;
+    background-color: var(--naranja);
+    box-shadow: 0px 100px 80px rgba(252, 166, 31, 0.07), 0px 41.7776px 33.4221px rgba(252, 166, 31, 0.0503198), 0px 22.3363px 17.869px rgba(252, 166, 31, 0.0417275), 0px 12.5216px 10.0172px rgba(252, 166, 31, 0.035), 0px 6.6501px 5.32008px rgba(252, 166, 31, 0.0282725), 0px 2.76726px 2.21381px rgba(252, 166, 31, 0.0196802);
+    border-radius: 26px;
+    border: 1px solid var(--blanco);
+    color: var(--blanco);
+    font-size:20px;
+    font-weight:700;
+}
+
+
+/* -- ----Fin Sobre mi---- -- */
+
+    /* -- Noticias -- */
+.noticias {
+    margin:170px 0px 150px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.noticias form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+.noticias input {
+    width:283px;
+    border-radius: 40px;
+    border: 1px solid var(--plomo);
+    padding:19px 55px !important;
+}
+.noticias input::placeholder{
+    font-size:18px;
+    font-weight:400;
+    font-family: 'Poppins', sans-serif;
+}
+.noticias button{
+    width:199px;
+    padding:19px 55px !important;
+    background-color:var(--naranja);
+    color:var(--blanco);
+    border: none;
+    border-radius:40px;
+    font-size:18px;
+    font-weight:700;
+    margin-left: 16px;
+}
+/* -- ----Fin noticias---- -- */
+
+    /* -- footer -- */
+
+footer{
+    padding: 58px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.short a{
+    font-size:18px;
+    font-weight:400;
+    color: var(--plomo);
+    margin-right: 60px;
+}
+.short a:last-child, .redes a:last-child{
+    margin-right:0px;
+}
+.redes{
+    margin-top:33px;
+}
+
+.redes a{
+    margin-right:49px;
+}
+
+.redes i{
+    font-size:20px;
+    color: #323232;
+    
+
+}
